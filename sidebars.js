@@ -4,8 +4,19 @@
 const sidebars = {
   docs: [
     {
-      type: 'doc',
-      id: 'overview',
+      type: 'category',
+      label: 'Overview',
+      collapsed: false,
+      items: [
+        {
+          type: 'doc',
+          id: 'overview',
+        },
+        {
+          type: 'doc',
+          id: 'get-started',
+        },
+      ],
     },
     {
       type: 'doc',
