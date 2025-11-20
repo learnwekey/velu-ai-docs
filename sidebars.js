@@ -4,23 +4,22 @@
 const sidebars = {
   docs: [
     {
+      type: 'doc',
+      id: 'overview',
+    },
+    {
       type: 'category',
-      label: 'Overview',
-      collapsed: false,
+      label: 'Setup',
       items: [
         {
           type: 'doc',
-          id: 'overview',
+          id: 'setup',
         },
         {
           type: 'doc',
-          id: 'get-started',
+          id: 'update-doc-chat-demo',
         },
       ],
-    },
-    {
-      type: 'doc',
-      id: 'setup',
     },
     {
       type: 'doc',
