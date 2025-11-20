@@ -33,4 +33,4 @@ Before you start, you’ll need:
 
 
 
-Next, read the [Integrations](./integrations.md) page to understand what tools Velu AI can connect with.
+Next, try the [Update a Documentation chat demo](./update-doc-chat-demo.md) to practice the workflow, then read the [Integrations](./integrations.md) page to understand what tools Velu AI can connect with.
