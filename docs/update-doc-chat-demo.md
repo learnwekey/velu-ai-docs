@@ -1,7 +1,7 @@
 ---
 id: update-doc-chat-demo
-title: Demo: Update a Documentation Chat
-sidebar_label: Update a Documentation Chat Demo
+title: "Demo: Update a Documentation Chat"
+sidebar_label: "Demo: Update a Documentation Chat"
 ---
 
 # Demo: Update a Documentation Chat
