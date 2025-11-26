@@ -12,22 +12,12 @@ const sidebars = {
       id: 'setup',
     },
     {
-      type: 'category',
-      label: 'Integrations',
-      items: [
-        {
-          type: 'doc',
-          id: 'integrations',
-        },
-        {
-          type: 'doc',
-          id: 'integrations-connect-velu-ai-to-github',
-        },
-        {
-          type: 'doc',
-          id: 'integrations-connect-velu-ai-to-slack',
-        },
-      ],
+      type: 'doc',
+      id: 'integrations',
+    },
+    {
+      type: 'doc',
+      id: 'linear-integration-how-to',
     },
   ],
 };
