@@ -8,22 +8,22 @@ const sidebars = {
       id: 'overview',
     },
     {
+      type: 'doc',
+      id: 'setup',
+    },
+    {
       type: 'category',
-      label: 'Setup',
+      label: 'Integrations',
       items: [
         {
           type: 'doc',
-          id: 'setup',
+          id: 'integrations',
         },
         {
           type: 'doc',
-          id: 'update-doc-chat-demo',
+          id: 'how-to-connect-slack',
         },
       ],
-    },
-    {
-      type: 'doc',
-      id: 'integrations',
     },
   ],
 };
