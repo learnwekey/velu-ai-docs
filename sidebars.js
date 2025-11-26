@@ -21,7 +21,11 @@ const sidebars = {
         },
         {
           type: 'doc',
-          id: 'how-to-connect-slack',
+          id: 'integrations-connect-velu-ai-to-github',
+        },
+        {
+          type: 'doc',
+          id: 'integrations-connect-velu-ai-to-slack',
         },
       ],
     },
