@@ -12,12 +12,12 @@ const sidebars = {
       id: 'setup',
     },
     {
-      type: 'doc',
-      id: 'integrations',
-    },
-    {
-      type: 'doc',
-      id: 'linear-integration-how-to',
+      type: 'category',
+      label: 'Integrations',
+      items: [
+        'integrations',
+        'linear-integration-how-to',
+      ],
     },
   ],
 };

@@ -28,6 +28,14 @@ What Velu does with GitHub:
 - Suggests doc updates when code, APIs, or configs change.
 - Can open pull requests with draft documentation changes.
 
+**Setup:**
+
+1. In Velu AI, go to **Integrations → GitHub**.
+2. Click **Connect GitHub** and authorize Velu.
+3. Select the organization/user and repositories you want Velu to watch.
+4. Confirm the default branch (for example: `main`).
+5. (Optional) Limit Velu to specific folders like `/docs` or `/api`.
+
 ---
 
 ## Google Drive
@@ -40,6 +48,13 @@ What Velu does with Google Drive:
 - Reads doc structure and content to understand your help center / guides.
 - Suggests updates when connected product sources change.
 - Keeps a mapping between product areas and the docs that describe them.
+
+**Setup:**
+
+1. In Velu AI, go to **Integrations → Google Drive**.
+2. Click **Connect** and grant access with your Google account.
+3. Choose the folders that contain your documentation.
+4. Save the integration.
 
 ---
 
@@ -54,16 +69,32 @@ What Velu does with Slack:
 - Single right click from slack can send out udpates to velu
 - Lets your team quickly click through to review or approve changes.
 
+**Setup:**
+
+1. In Velu AI, go to **Integrations → Slack**.
+2. Click **Add to Slack**.
+3. Choose the workspace and channel where Velu should post.
+4. Confirm permissions and save.
+
 ---
 
 ## Linear
 
 Use this if your team uses Linear to manage product work and issues.
 
+For a step-by-step walkthrough, see [Connect Velu to Linear](./linear-integration-how-to.md).
+
 What Velu does with Linear:
 
 - Links documentation suggestions to Linear issues.
 - Helps you see which features/issues still need docs.
 - Optionally creates follow-up tasks when important doc gaps are detected.
+
+**Setup:**
+
+1. In Velu AI, go to **Integrations → Linear**.
+2. Click **Connect** and authorize Velu.
+3. Select the teams and projects that are relevant to your docs.
+4. Decide how you want Velu to create or link issues (for example: one issue per feature, or per doc).
 
 
