@@ -6,95 +6,39 @@ sidebar_label: Integrations
 
 # Integrations
 
-Velu AI works best when it’s connected to the tools you already use for docs, collaboration, and product development.
+## Velu works best when it's connected to the tools where work and documentation already happen
 
-Right now, Velu supports:
+Connect an integration 
 
-- GitHub
-- Google Drive
-- Slack
-- Linear
+## What integrations do in Velu
 
----
+Velu uses integrations as context and triggers so it always knows what changed and what to update next:
 
-## GitHub
+1. Connect tools across documentation, collaboration, and product work.
+2. Velu detects a change or receives a trigger from those sources.
+3. Velu suggests documentation updates and points to the right pages or files.
+4. The team reviews and publishes through pull requests or doc edits.
 
-Use this when your docs and/or code live in GitHub.
+## Why this helps
 
-What Velu does with GitHub:
+These outcomes keep your team focused:
 
-- Scans your documentation repo (Markdown / MDX).
-- Tracks changes in specific folders (for example `/docs`, `/api`, `/guides`).
-- Suggests doc updates when code, APIs, or configs change.
-- Can open pull requests with draft documentation changes.
+- Keep documentation current without scanning every repository or folder manually.
+- Reduce missed updates by surfacing changes as soon as they happen.
+- Clarify ownership by showing who should review suggested edits.
+- Shorten review cycles with ready-to-review drafts in your existing tools.
+- Cut down on chasing teams for status with shared notifications and tasks.
 
-**Setup:**
 
-1. In Velu AI, go to **Integrations → GitHub**.
-2. Click **Connect GitHub** and authorize Velu.
-3. Select the organization/user and repositories you want Velu to watch.
-4. Confirm the default branch (for example: `main`).
-5. (Optional) Limit Velu to specific folders like `/docs` or `/api`.
+## Integration categories
 
----
+These categories show how Velu covers the core parts of your workflow:
 
-## Google Drive
+- **Code and docs repositories:** Keeps docs aligned with shipped code. Supported tools: GitHub.
+- **Document storage:** Syncs shared guidance stored in drives. Supported tools: Google Drive.
+- **Team chat:** Shares updates where conversations already happen. Supported tools: Slack.
+- **Project management:** Connects documentation work to product issues. Supported tools: Linear.
 
-Use this when your docs live as Google Docs instead of code.
-
-What Velu does with Google Drive:
-
-- Connects to selected folders that contain your documentation.
-- Reads doc structure and content to understand your help center / guides.
-- Suggests updates when connected product sources change.
-- Keeps a mapping between product areas and the docs that describe them.
-
-**Setup:**
-
-1. In Velu AI, go to **Integrations → Google Drive**.
-2. Click **Connect** and grant access with your Google account.
-3. Choose the folders that contain your documentation.
-4. Save the integration.
-
----
-
-## Slack
-
-Slack is used for notifications and collaboration.
-
-What Velu does with Slack:
-
-- Sends notifications when new doc suggestions or updates are triggered.
-- Can be part of a specific channel (for example: `#docs-updates`).
-- Single right click from slack can send out udpates to velu
-- Lets your team quickly click through to review or approve changes.
-
-**Setup:**
-
-1. In Velu AI, go to **Integrations → Slack**.
-2. Click **Add to Slack**.
-3. Choose the workspace and channel where Velu should post.
-4. Confirm permissions and save.
-
----
-
-## Linear
-
-Use this if your team uses Linear to manage product work and issues.
-
-For a step-by-step walkthrough, see [Connect Velu to Linear](./linear-integration-how-to.md).
-
-What Velu does with Linear:
-
-- Links documentation suggestions to Linear issues.
-- Helps you see which features/issues still need docs.
-- Optionally creates follow-up tasks when important doc gaps are detected.
-
-**Setup:**
-
-1. In Velu AI, go to **Integrations → Linear**.
-2. Click **Connect** and authorize Velu.
-3. Select the teams and projects that are relevant to your docs.
-4. Decide how you want Velu to create or link issues (for example: one issue per feature, or per doc).
+Connect integrations to give Velu the context it needs and keep your documentation accurate.
 
 
