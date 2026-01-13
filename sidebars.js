@@ -9,15 +9,15 @@ const sidebars = {
     },
     {
       type: 'doc',
+      id: 'security',
+    },
+    {
+      type: 'doc',
       id: 'setup',
     },
     {
       type: 'doc',
       id: 'integrations',
-    },
-    {
-      type: 'doc',
-      id: 'create-new-skill',
     },
   ],
 };
