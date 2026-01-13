@@ -12,26 +12,12 @@ const sidebars = {
       id: 'setup',
     },
     {
-      type: 'category',
-      label: 'Integrations',
-      items: [
-        {
-          type: 'doc',
-          id: 'integrations',
-        },
-        {
-          type: 'category',
-          label: 'Project Management',
-          items: [
-            'integrations/project-management/how-to-connect-linear-in-velu',
-            'integrations/project-management/how-to-connect-jira-in-velu',
-            'integrations/project-management/how-to-connect-notion-in-velu',
-            'integrations/project-management/how-to-connect-monday-in-velu',
-            'integrations/project-management/how-to-connect-trello-in-velu',
-            'integrations/project-management/how-to-connect-asana-in-velu',
-          ],
-        },
-      ],
+      type: 'doc',
+      id: 'integrations',
+    },
+    {
+      type: 'doc',
+      id: 'create-new-skill',
     },
   ],
 };
